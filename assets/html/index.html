@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.meta.title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:url" content="<%= htmlWebpackPlugin.options.meta.url %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<%= htmlWebpackPlugin.options.meta.title %>" />
+    <meta property="og:description" content="<%= htmlWebpackPlugin.options.meta.description %>" />
+    <meta property="og:image" content="<%= htmlWebpackPlugin.options.meta.images.facebook %>" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<%= htmlWebpackPlugin.options.meta.twitter %>">
+    <meta name="twitter:creator" content="<%= htmlWebpackPlugin.options.meta.twitter %>">
+    <meta name="twitter:title" content="<%= htmlWebpackPlugin.options.meta.title %>">
+    <meta name="twitter:description" content="<%= htmlWebpackPlugin.options.meta.description %>">
+    <meta name="twitter:image" content="<%= htmlWebpackPlugin.options.meta.images.twitter %>">
+  </head>
+  <body>
+    <div id="app">Hello world</div>
+  </body>
+</html>
