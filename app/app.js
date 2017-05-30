@@ -1,3 +1,9 @@
 require('../assets/scss/_main.scss')
 
-console.log('hello there')
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+ReactDOM.render(
+  <h1>Hello, worldddddd!</h1>,
+  document.getElementById('app')
+)
