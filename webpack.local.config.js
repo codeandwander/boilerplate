@@ -32,6 +32,15 @@ module.exports = {
 
   module: {
     rules: [
+
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: [
+          'eslint-loader',
+        ],
+      },
+
       {
         test: /\.scss$/,
         use: extractSass.extract({
