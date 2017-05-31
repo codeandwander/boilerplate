@@ -1,6 +1,3 @@
-import React from 'react'
-import { Route } from 'react-router-dom'
-import Main from '../modules/app'
 import { Home, About } from '../statics'
 
 const routes = [
