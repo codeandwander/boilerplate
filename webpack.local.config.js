@@ -32,6 +32,7 @@ module.exports = {
 
   module: {
     rules: [
+
       {
         test: /\.scss$/,
         use: extractSass.extract({
@@ -46,13 +47,19 @@ module.exports = {
 
       { 
         test: /\.js$/, 
-        use: 'babel-loader', 
+        use: [
+          'babel-loader',
+          'eslint-loader'
+        ], 
         exclude: /node_modules/ 
       },
 
       { 
         test: /\.jsx$/, 
-        use: 'babel-loader', 
+        use: [
+          'babel-loader',
+          'eslint-loader'
+        ], 
         exclude: /node_modules/ 
       }
     ]

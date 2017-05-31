@@ -1,4 +1,4 @@
-require('../assets/scss/_main.scss')
+import '../assets/scss/_main.scss'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
