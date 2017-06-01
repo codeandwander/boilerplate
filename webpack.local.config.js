@@ -13,7 +13,8 @@ module.exports = {
     app: [
       'webpack-dev-server/client?http://0.0.0.0:8080',
       'webpack/hot/only-dev-server',
-      './app/app'
+      './app/app',
+      './assets/js'
     ]
   },
 
@@ -46,7 +47,7 @@ module.exports = {
       },
 
       { 
-        test: /\.js$/, 
+        test: /\.(js|jsx)$/, 
         use: [
           'babel-loader',
           'eslint-loader'
@@ -54,14 +55,6 @@ module.exports = {
         exclude: /node_modules/ 
       },
 
-      { 
-        test: /\.jsx$/, 
-        use: [
-          'babel-loader',
-          'eslint-loader'
-        ], 
-        exclude: /node_modules/ 
-      }
     ]
   },
 
