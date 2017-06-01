@@ -11,7 +11,6 @@ const extractSass = new ExtractTextPlugin({
 module.exports = {
   entry: {
     app: [
-      './app/app.js',
       './assets/js'
     ],
   }
