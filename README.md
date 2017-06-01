@@ -50,7 +50,7 @@ Work from the assets folder and stay our of the local and production build folde
 ├── local                             # A compiled environment used for development
 ├── production                        # A compiled environment used for production
 ├── eslintrc.json                     # Keeping JS neat & tidy
-├── .gitignore           		          # Ignore various stuffz
+├── .gitignore                        # Ignore various stuffz
 ├── package.json                      # Dependancies and bits
 ├── README.md                         # This very file 👀
 ├── server.js                         # For serving up our delicious local and production enviroments
