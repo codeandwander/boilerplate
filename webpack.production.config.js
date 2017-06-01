@@ -13,7 +13,7 @@ module.exports = {
     app: [
       './assets/js'
     ],
-  }
+  },
 
   output: {
     filename: 'bundle.js',
@@ -32,15 +32,25 @@ module.exports = {
       },
 
       {
-        test: /\.scss$/,
+        test: /\.(css|scss)$/,
         use: extractSass.extract({
-          use: [{
-            loader: 'css-loader',
-            options: { minimize: true }
-          }, {
-            loader: 'sass-loader'
-          }],
-          fallback: 'style-loader'
+          fallback: 'style-loader',
+          use: [
+            {
+              loader: 'css-loader',
+              options: {
+                autoprefixer: true,
+                minimize: true
+              }
+            },
+            'postcss-loader',
+            {
+              loader: 'sass-loader',
+              query: {
+                sourceMap: false,
+              }
+            }
+          ],
         })
       },
     ]

@@ -44,12 +44,22 @@ module.exports = {
       {
         test: /\.scss$/,
         use: extractSass.extract({
-          use: [{
-            loader: 'css-loader',
-          }, {
-            loader: 'sass-loader'
-          }],
-          fallback: 'style-loader'
+          fallback: 'style-loader',
+          use: [
+            {
+              loader: 'css-loader',
+              options: {
+                autoprefixer: true
+              }
+            },
+            'postcss-loader',
+            {
+              loader: 'sass-loader',
+              query: {
+                sourceMap: false,
+              }
+            }
+          ],
         })
       }
     ]
