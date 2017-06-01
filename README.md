@@ -2,6 +2,12 @@
 
 A boilerplate for developing basic websites, i.e HTML, SCSS and JavaScript.
 
+## What's included
+* Webpack
+* Webpack Dev Server
+* Style, CSS, SCSS and font loaders - autoprefixer, eslint
+* Production builder, minifies everything
+
 ## Installation
 
 ```bash
@@ -36,11 +42,11 @@ Work from the assets folder and stay our of the local and production build folde
 ```
 .
 ├── assets                            # Main assets folder
-│   ├── fonts													# Put all fonts in'ere
-│   ├── html  												# Main index.html template is inside
-│   ├── img 													# Put all images in here
-│   ├── js 														# Put all your JavaScript in here
-│   ├── scss 													# Put all your SCSS in here
+│   ├── fonts                         # Put all fonts in'ere
+│   ├── html                          # Main index.html template is inside
+│   ├── img                           # Put all images in here
+│   ├── js                            # Put all your JavaScript in here
+│   ├── scss                          # Put all your SCSS in here
 ├── local                             # A compiled environment used for development
 ├── production                        # A compiled environment used for production
 ├── eslintrc.json                     # Keeping JS neat & tidy
@@ -52,9 +58,3 @@ Work from the assets folder and stay our of the local and production build folde
 ├── webpack.production.config.js      # Handles building production enviroment
 ├── yarn.lock                         # Some yarn thing...
 ```
-
-## What's included
-* Webpack
-* Webpack Dev Server
-* Style, CSS, SCSS and font loaders - autoprefixer, eslint
-* Deployment builder, minifies everything
