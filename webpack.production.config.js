@@ -9,7 +9,12 @@ const extractSass = new ExtractTextPlugin({
 });
 
 module.exports = {
-  entry: './app/app.js',
+  entry: {
+    app: [
+      './app/app',
+      './assets/js'
+    ]
+  },
 
   output: {
     filename: 'bundle.js',
@@ -33,16 +38,7 @@ module.exports = {
       },
 
       { 
-        test: /\.js$/, 
-        use: [
-          'babel-loader',
-          'eslint-loader'
-        ],
-        exclude: /node_modules/ 
-      },
-
-      { 
-        test: /\.jsx$/, 
+        test: /\.(js|jsx)$/, 
         use: [
           'babel-loader',
           'eslint-loader'
