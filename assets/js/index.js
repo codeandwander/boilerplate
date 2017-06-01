@@ -1,1 +1,1 @@
-require('../scss/_main.scss')
+import '../scss/_main.scss'
