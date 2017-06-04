@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L17,0 L17,18.0092049 C17,19.1086907 16.1099416,20 14.9998938,20 L2.00010618,20 C0.89547804,20 0,19.1017876 0,18.0092049 L0,0 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="25" height="1" rx="0.5"></rect>
+        <path d="M0,2.5 C0,1.11928813 1.24045728,0 2.74738936,0 L8.25261063,0 C9.76995184,0 11,1.10966206 11,2.5 L11,5 L0,5 L0,2.5 Z" id="path-5"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="delete">
+            <g id="Symbols">
+                <g id="ic_delete">
+                    <g id="Group-2">
+                        <g id="Rectangle-2" transform="translate(4.000000, 4.000000)">
+                            <g id="path-1-Clipped">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="path-1"></g>
+                                <path d="M0,0 L17,0 L17,18.0092049 C17,19.1086907 16.1099416,20 14.9998938,20 L2.00010618,20 C0.89547804,20 0,19.1017876 0,18.0092049 L0,0 Z" id="path-1" stroke="#EF5350" stroke-width="2" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                        <g id="Rectangle" transform="translate(0.000000, 4.000000)">
+                            <g id="path-3-Clipped">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="path-3"></g>
+                                <rect id="path-3" stroke="#EF5350" stroke-width="2" mask="url(#mask-4)" x="0" y="0" width="24" height="1" rx="0.5"></rect>
+                            </g>
+                        </g>
+                        <g id="Rectangle-6" transform="translate(7.000000, 0.000000)">
+                            <g id="path-5-Clipped">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="path-5"></g>
+                                <path d="M0,2.5 C0,1.11928813 1.24045728,0 2.74738936,0 L8.25261063,0 C9.76995184,0 11,1.10966206 11,2.5 L11,5 L0,5 L0,2.5 Z" id="path-5" stroke="#EF5350" stroke-width="2" mask="url(#mask-6)"></path>
+                            </g>
+                        </g>
+                        <rect id="Rectangle-8" fill="#EF5350" fill-rule="nonzero" x="8" y="8" width="1" height="12" rx="0.5"></rect>
+                        <rect id="Rectangle-8" fill="#EF5350" fill-rule="nonzero" x="12" y="8" width="1" height="12" rx="0.5"></rect>
+                        <rect id="Rectangle-8" fill="#EF5350" fill-rule="nonzero" x="16" y="8" width="1" height="12" rx="0.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
