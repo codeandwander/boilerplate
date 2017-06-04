@@ -22,8 +22,6 @@ module.exports = {
     path: path.resolve(__dirname, 'local/assets/js')
   },
 
-  devtool: 'source-map',
-
   devServer: {
     contentBase: 'local',
     historyApiFallback: true,
@@ -58,7 +56,7 @@ module.exports = {
               query: {
                 sourceMap: false,
               }
-            }
+            },
           ],
         })
       }
@@ -67,7 +65,6 @@ module.exports = {
 
   plugins: [
     extractSass,
-    new webpack.HotModuleReplacementPlugin(),
     new CopyWebpackPlugin([
       { 
         from: './assets/fonts/**/*', to: '../../' 
