@@ -1,19 +1,39 @@
 @font-face {
-	font-family: 'Circular Std Book';
-	src: url('/assets/fonts/circular/CircularStd-Book.eot');
-	src: url('/assets/fonts/circular/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
-		url('/assets/fonts/circular/CircularStd-Book.woff') format('woff'),
-		url('/assets/fonts/circular/CircularStd-Book.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Baller';
+  src: url('../fonts/baller/Baller-Regular.eot');
+  src: url('../fonts/baller/Baller-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/baller/Baller-Regular.woff') format('woff'),
+    url('../fonts/baller/Baller-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Circular Std';
-	src: url('/assets/fonts/circular/CircularStd-Black.eot');
-	src: url('/assets/fonts/circular/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
-		url('/assets/fonts/circular/CircularStd-Black.woff') format('woff'),
-		url('/assets/fonts/circular/CircularStd-Black.ttf') format('truetype');
-	font-weight: 900;
-	font-style: normal;
+  font-family: 'Gotham';
+  src: url('../fonts/gotham/Gotham-Medium.eot');
+  src: url('../fonts/gotham/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gotham/Gotham-Medium.woff') format('woff'),
+    url('../fonts/gotham/Gotham-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/gotham/Gotham-Book.eot');
+  src: url('../fonts/gotham/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gotham/Gotham-Book.woff') format('woff'),
+    url('../fonts/gotham/Gotham-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/gotham/Gotham-Bold.eot');
+  src: url('../fonts/gotham/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gotham/Gotham-Bold.woff') format('woff'),
+    url('../fonts/gotham/Gotham-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }

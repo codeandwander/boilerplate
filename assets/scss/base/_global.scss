@@ -6,8 +6,99 @@ html {
 }
 
 body {
-	margin: 100px;
 	text-align: center;
-	font-family: 'Circular Std Book';
+	font-family: 'Baller';
 	-webkit-font-smoothing: antialiased;
+}
+
+.bg {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #E63C11;
+  background-blend-mode: multiply;
+
+  .bg-image {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+
+    img {
+      object-fit: cover;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+    }
+  }
+}
+
+.flexbox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .spinner {
+    z-index: 2;
+    font-size: 0;
+    padding: 25px 35px;
+    position: relative;
+    background: #E63C11;
+    cursor: pointer;
+
+    &.spinning {
+      span {
+        opacity: 0;
+
+        &.hypen,
+        &.home-score,
+        &.away-score {
+          opacity: 1;
+        }
+      }
+    }
+
+    span {
+      color: #FAF7E6;
+      font-size: 150px;
+      transition: all .3s ease;
+
+      &.hypen {
+        top: 25px;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        position: absolute;
+      }
+
+      &.home-score {
+        top: 25px;
+        left: -112px;
+        opacity: 0;
+        width: 100%;
+        position: absolute;
+      }
+
+      &.away-score {
+        top: 25px;
+        left: 112px;
+        opacity: 0;
+        width: 100%;
+        position: absolute;
+      }
+    }
+  }
 }

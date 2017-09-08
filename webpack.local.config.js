@@ -58,7 +58,16 @@ module.exports = {
             },
           ],
         })
-      }
+      },
+
+      {
+        test: /\.(svg|ttf|eot|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: '../fonts/all/[name].[ext]',
+        },
+      },
+      
     ]
   },
 
